@@ -7,5 +7,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface ExamRepository extends JpaRepository<ExamEntity,Integer> {
 
-    ExamEntity getByCourseId(Integer courseId);
+    ExamEntity getByCourseId(Integer id);
 }

@@ -23,8 +23,8 @@ public class ExamServiceImpl implements ExamService {
     }
 
     @Override
-    public Exam getExamByCourseId(Integer courseId) {
-        return mapper.map(examRepository.getByCourseId(courseId), Exam.class);
+    public Exam getExamByCourseId(Integer id) {
+        return mapper.map(examRepository.getByCourseId(id), Exam.class);
     }
 
     @Override
